@@ -1,0 +1,56 @@
+html,
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+    padding: 10px;
+}
+
+/* Cursor */
+.txt-type .txt {
+    /* border-right: solid 2px #777; */
+    padding-right: 3px;
+}
+
+.blinking-cursor {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        color: #ffffff;
+    }
+
+    50% {
+        color: transparent;
+    }
+}
+
+
+.text {
+    font-size: 18px;
+    padding: 20px;
+}
+
